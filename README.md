@@ -35,3 +35,9 @@ curl -s -o /dev/null -H "X-Update: 1" http://localhost:8080/pexels-iconcom-12142
 # 7. Observe that cache write time changed to new one
 
 ![](images/mounted-volume-changed-timestamp.png)
+
+# 8. Run cleanup script
+
+```
+./cleanup.sh
+```
